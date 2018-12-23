@@ -20,3 +20,7 @@ $ cp main.ini.template main.ini
 ## use library
 
 - [Smarty](https://www.smarty.net/)
+
+## old version
+
+- [EasyBBS](https://github.com/kyoronet/php-simple-bbs) (without MySQL)
