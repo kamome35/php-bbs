@@ -1,0 +1,4 @@
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	RewriteRule ^tp([0-9]+)$ /bbs/res.php?no=$1 [L]
+</IfModule>

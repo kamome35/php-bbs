@@ -1,0 +1,79 @@
+;
+[SET]
+DISPLAY_NUM   = 10
+QUOTED_LENGTH = 120
+NEW_DAYS      = 2
+BBS_TITLE     = "BBS"
+MASTER_NAME   = "Admin"
+MASTER_PASS   = "Admin123"
+
+; モード
+[MODE]
+INSERT = "insert"
+
+[POST]
+MODE    = "mode"
+KIND    = "kind"
+NUMBER  = "no"
+TITLE   = "title"
+NAME    = "name"
+MAIL    = "mail"
+URL     = "url"
+TEXT    = "text"
+KEY     = "key"
+COOKIE  = "cookie"
+PREVIEW = "preview"
+
+[GET]
+MODE    = "mode"
+TYPE    = "type"
+KIND    = "kind"
+NUMBER  = "no"
+
+; データベース設定
+[DATABASE]
+SERVER       = "localhost"
+USERNAME     = "admin"
+DB_NAME      = "bbs"
+PASSWORD     = "admin123"
+
+PARENT_TABLE = "parent_table"
+CHILD_TABLE  = "child_table"
+
+; 親テーブル
+[PARENT_TABLE]
+ID          = "id"
+KIND        = "kind"
+TITLE       = "title"
+NAME        = "name"
+MAIL        = "mail"
+URL         = "url"
+TEXT        = "text"
+ATTACH      = "attach"
+MD5         = "md5"
+CREATE_DATE = "create_date"
+STATE       = "state"
+REMOTE_ADDR = "remote_addr"
+REMOTE_HOST = "remote_host"
+USER_AGENT  = "user_agent"
+RES_AMOUNT  = "res_amount"
+PAGE_VIEW   = "page_view"
+UPDATE_NAME = "updata_name"
+UPDATE_DATE = "updata_date"
+
+; 子テーブル
+[CHILD_TABLE]
+ID          = "id"
+PARENT      = "parent"
+TITLE       = "title"
+NAME        = "name"
+MAIL        = "mail"
+URL         = "url"
+TEXT        = "text"
+ATTACH      = "attach"
+MD5         = "md5"
+CREATE_DATE = "create_date"
+STATE       = "state"
+REMOTE_ADDR = "remote_addr"
+REMOTE_HOST = "remote_host"
+USER_AGENT  = "user_agent"
