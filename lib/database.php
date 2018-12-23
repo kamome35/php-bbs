@@ -1,7 +1,7 @@
 <?php
 
 // データベース操作関連
-include_once( dirname(__FILE__)."/../../framework/db.php" );
+include_once( dirname(__FILE__)."/../framework/db.php" );
 include_once( dirname(__FILE__)."/create.php" );
 
 class Database

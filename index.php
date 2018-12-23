@@ -1,9 +1,9 @@
 <?php
 
 define('TEMPLATE_FILEDIR', dirname(__FILE__).'/template/');
-include_once( dirname(__FILE__)."/../framework/template.php" );
-include_once( dirname(__FILE__)."/../framework/db.php" );
-include_once( dirname(__FILE__)."/../framework/coating.php" );
+include_once( dirname(__FILE__)."/framework/template.php" );
+include_once( dirname(__FILE__)."/framework/db.php" );
+include_once( dirname(__FILE__)."/framework/coating.php" );
 
 $instance = new Index();
 

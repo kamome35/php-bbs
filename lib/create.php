@@ -1,5 +1,5 @@
 <?php
-include_once( dirname(__FILE__)."/../../../framework/coating.php" );
+include_once( dirname(__FILE__)."/../framework/coating.php" );
 
 class Create
 {
