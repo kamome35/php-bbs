@@ -1,12 +1,8 @@
 # php-bbs
 
-## environment
-
 - PHP
 - MySQL
 - Apache
-
-version as of 2009
 
 ## initial setting
 
@@ -17,7 +13,7 @@ $ cd config
 $ cp main.ini.template main.ini
 ```
 
-## use library
+## library
 
 - [Smarty](https://www.smarty.net/)
 
