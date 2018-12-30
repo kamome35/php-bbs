@@ -1,22 +1,24 @@
-# php-bbs
+# Topics BBS2
 
-- PHP
+## Prerequisites
+
+- PHP 5
 - MySQL
-- Apache
+- Apache(mod_rewrite)
 
-## initial setting
+## Getting Started
 
-Change to your information
+### initial setting
 
 ```bash
 $ cd config
 $ cp main.ini.template main.ini
 ```
 
-## library
+## Library
 
 - [Smarty](https://www.smarty.net/)
 
-## old version
+## Old Version
 
 - [EasyBBS](https://github.com/kyoronet/php-simple-bbs) (without MySQL)
